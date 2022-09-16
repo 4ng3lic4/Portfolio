@@ -11,60 +11,113 @@
 </head>
 
 <body>
+
+    <!--------------------- Navigation-------------------------------------->
     <header>
-        <section class="container">
-            <!---<img src="./assets/img/Screen Shot 2022-08-26 at 9.04.02 PM.png" alt="Angelica Avatar" class="Avatar"> -->
-        <!-- Navigation -->
-        <nav>
-           
-            <ul>
-                <li><a href="about.html" >About Me </a> </li>
-                <li><a href="portfolio.html"> Portfolio</a></li>
-                <li><a href="github.html">GitHub</a></li>
-                <li> <a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <section>
+
+            <nav class="nav_bar">
+
+
+                <!-- aling navigation contents assign class-->
+                <ul class="menu">
+
+                    <li>
+                        <a href="#about"> About Me </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"> Portfolio</a>
+                    </li>
+                    <!--<li>
+                        <a href="github.html">GitHub</a>
+                    </li>-->
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
     </header>
-    <!-- End of Navigation -->
+    <!---------------------End of Navigation-------------------------------------->
 
     <!-- Section for main content  -->
     <main>
-        <h1>Angelica Ibarra</h1>
-        <!--Add a class to stile this section, e.g. h1 clas="text 
-            -center"> My Portfolio</n1> and image 
-            <figure>
-                <img src="./assets/img/Angelica" alt="Graphic with coming soon text">
-            </figure>  -->
 
+        <!---------------------About Me -------------------------------------->
+        <h1 id="about">About Me</h1>
+        <div>
+            <img class="avatar" src="./assets/img/avatar.png" />
+
+        </div>
         <section>
-            <!--Add id="contact"-->
+            <p>My name is Angelica, I am a Visual Artist and a former Educator. In the past 10 years,
+                I have created materials specifically adapted to fulfill the needs of special needs clients.
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum vitae justo sollicitudin euismod
-                in sit amet enim. Nullam posuere est consequat felis tincidunt convallis. Suspendisse efficitur dapibus
-                tortor, sit amet sodales arcu rhoncus a. In hac habitasse platea dictumst. Maecenas rutrum porttitor
-                nibh at porttitor. Sed pharetra elit lobortis metus laoreet, sit amet interdum tortor convallis. Nunc
-                varius iaculis enim, ut interdum metus venenatis vitae. Fusce sapien felis, sodales in sapien id,
-                fermentum pretium mauris. Praesent dignissim posuere nisi, ut auctor tortor consequat nec. Cras volutpat
-                ultrices elit, vel elementum diam gravida sed. Mauris elementum, eros nec tincidunt molestie, ligula leo
-                ultrices justo, sit amet pulvinar dolor enim eu dolor. Aliquam non tincidunt magna</p>
+                I am continually enhacing my skills by attending trainings and seminars to learn about the latest
+                strategies and evidence based programs for therapeutic Interventions.
+
+                The materials my clients request are adapted for therapeutic interventions such as Speech and
+                Language, Applied Behavior Analysis, Executive Functioning, Bilingual Education, Special and General
+                Education.
+            </p>
+            <p>In my free time, I like to have ride bikes and go for a swim with my family.</p>
         </section>
+        <!---------------------End of About Me -------------------------------------->
+        <hr>
+        <!---------------------PORTFOLIO-------------------------------------->
+        <h1 id="portfolio">Portfolio</h1>
+        <section>
+            <section id="blocks">
+                <a href="https://4ng3lic4.github.io/prework-study-guide/">
+                <img src="./assets/img/prework.jpg" alt="prework-study-guide button" />
+            </a>
+            <a href="https://4ng3lic4.github.io/bio-repo/">
+                <img src="./assets/img/bio_repo.jpg" alt="Bio Repo button" />
+            </a>
+            <a href="https://4ng3lic4.github.io/code-refactor/">
+                <img src="./assets/img/horiseon.jpg" alt="Horiseon button" />
+            </a>
+            
+                <img src="./assets/img/coming.jpg" alt="Coming Soon button" />
+            </section>
+        </section>
+        <!---------------------End of PORTFOLIO-------------------------------------->
 
+
+        <!---------------------CONTACT-------------------------------------->
+
+        <h1 id="contact">Contact</h1>
+        <!--Add a class to stile this section, e.g. h1 clas="text 
+              -center"> My Portfolio</n1> and image 
+              <figure>
+                  <img src="./assets/img/Angelica" alt="Graphic with coming soon text">
+              </figure>  -->
+        <section>
+            <ul>
+                <li>
+                    <!--Add id="contact"-->
+                    <a href="https://www.linkedin.com/in/angelicaibarrao/">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com/4ng3lic4">GitHub</a>
+
+                </li>
+            </ul>
+        </section>
+        <!---------------------End of CONTACT-------------------------------------->
     </main>
+    <!---------------------End of Main Section-------------------------------------->
 
-    <aside>
-        <h3>Title</h3>
-        <h3>Title</h3>
-        <h3>Title</h3>
-    </aside>
     <!---Footer--->
 
     <footer>
-
-
+        <br>
+        <br>
         <p>
             &copy; 2022 Angelica Ibarra Ochoa
         </p>
+        <br>
+        <br>
     </footer>
     <!---End of Footer--->
 </body>
