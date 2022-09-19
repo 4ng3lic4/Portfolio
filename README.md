@@ -11,10 +11,10 @@ WHEN they load portfolio
 THEN I show my name,  avatar, and links to sections about me, my work, and how to contact me
 WHEN user clicks one of the links in the navigation
 THEN the UI scrolls to the corresponding section
-WHEN ser clicks on the link to the section about my work
+WHEN user clicks on the link to the section about my work
 THEN the UI scrolls to a section with titled images of my applications
 WHEN the first application is presented
-THEN that application's image should be larger in size than the others
+THEN that application's image should be larger thant the others in size
 WHEN user clicks on the images of the applications
 THEN user is taken to that deployed application
 WHEN user resizes the page or view the site on various screens and devices
