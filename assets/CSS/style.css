@@ -124,13 +124,14 @@ width: 100%;
 .project1 img {
     width: 100%;
 }
-
+/*Add Responsiveness to the website for tablets*/
 
 @media screen and (max-width:735px) {
     #blocks {
         width: 80%;
     }
 }
+/*Add Responsiveness to the website for phones*/
 @media screen and (max-width:390px){
     #present {
         flex-direction: column;
