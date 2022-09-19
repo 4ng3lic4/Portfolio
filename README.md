@@ -25,7 +25,6 @@ THEN user is presented with a responsive layout that adapts to their viewport
 
 - [About](#About)
 - [Portfolio](#Portfolio)
-- [GitHub](#GitHub)
 - [Contact](#Contact)
 
 
@@ -37,7 +36,7 @@ The top navigation is linked to different setion of the website, each section pr
 ## Mock Up
 
 The project is intended to look like the example below
- ![Mock Up website](./assets/img/avatar.png)
+![Mock Up website](./assets/img/avatar.png)
     
 
 ## Finished product
@@ -45,7 +44,7 @@ The project is intended to look like the example below
 Here is the link of the finished work
 
 
-    ![Deployed website](https://4ng3lic4.github.io/Portfolio/)
+[Deployed website](https://4ng3lic4.github.io/Portfolio/)
     
 
 ## Credits
