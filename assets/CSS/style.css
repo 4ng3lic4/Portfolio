@@ -1,3 +1,5 @@
+
+
 /*The star is the universar selector. It applies t oabsolutely everything inside the code*/
 * {
     box-sizing: border-box;
@@ -55,7 +57,13 @@ li {
 
   }
 
+  /*Portfolio section wrap*/
   #present {
+    display: flex;
+
+  }
+
+  #contact {
     display: flex;
   }
 
@@ -67,8 +75,6 @@ li {
 
 
 /*Then we style the class selectors*/
-/*Move avatar to the left and menu to the right side of the page
-by making the content fluid*/
 .nav_bar {
 
     background-color: black;
@@ -78,15 +84,12 @@ by making the content fluid*/
     /* vertically Aligning the Avatar in the center*/
     align-items: center;
     font-size: 20px;
-
-
 }
 
 /*Removing the bullets */
 .menu {
     list-style-type: none;
 }
-
 
 
 .nav_bar a {
@@ -100,13 +103,10 @@ by making the content fluid*/
     color: darkgray;
 }
 
-/*Reduce size of avatar image, chech why padding left
-is squeezing the image*/
+/*Reduce size of avatar image,*/
 .avatar {
     height: 200px;
     width: 200px;
-   /* padding-left: 100px;*/
-
 }
 
 .row {
@@ -124,13 +124,16 @@ width: 100%;
 .project1 img {
     width: 100%;
 }
-/*Style in Portfolio
-.present {
-    width:90%;
-    padding:20%;
-    margin:100px auto;
-    display:flex;
-    flex-direction: inherit;
-    justify-content:center;
+
+
+@media screen and (max-width:735px) {
+    #blocks {
+        width: 80%;
+    }
 }
-NOT WORKING*/
+@media screen and (max-width:390px){
+    #present {
+        flex-direction: column;
+    }
+
+}
